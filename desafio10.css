@@ -1,0 +1,225 @@
+
+@charset "UTF-8";
+
+/*#5ADB8A #0E5629 #9FF5BC */
+
+@font-face {
+    font-family: "idroid";
+    src: url(idroid.otf);
+    
+}
+ @font-face {
+        font-family: "Super Croissant";
+        src: url(Super\ Croissant.ttf);
+     }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9FF5BC;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #5ADB8A, #0E5629);
+    padding: 2em;
+    color: rgba(255, 255, 255, 0.838);
+    box-shadow: 0px 1px 7px 5px rgba(0, 0, 0, 0.371);
+    min-width: 300px;
+}
+
+nav > h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+nav > p {
+    text-align: center;
+    font-family: 'Arial', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2.2em;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav > a {
+    
+    font-family: 'Arial', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.838);
+    margin-left: 1em;
+}
+
+nav > a:hover {
+    color: white;
+    transition: all 1s;
+    background-color: #5ADB8A;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.253);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1 {
+    font-family: "idroid";
+    color: #0f7536;
+    text-align: left;
+    text-indent: 1rem;
+    margin-left: 0.8rem;
+    font-weight: normal;
+}
+
+main > p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-indent: 2rem;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+main > h2 {
+    font-family: "idroid";
+    color: #0f7536;
+    background-image: linear-gradient(to right, #9FF5BC, transparent);
+    text-align: left;
+    text-indent: 1rem;
+    margin-left: 0.8rem;
+    font-weight: normal;
+}
+
+main > img {
+    max-width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main > main#extra {
+
+    margin-top: 2rem;
+    width: 90%;
+    border-radius: 1em;
+    padding-top: 0;
+    background-color: #9FF5BC;
+}
+
+main#extra > h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-indent: 0.2em;
+    background-color:#0E5629;
+    border-radius: 1em 1em 0em 0em;
+    padding: 0.5em;
+    margin-top: 0;
+}
+
+main#extra > p {
+    background-color: #9FF5BC;
+    color: rgb(0, 0, 0);
+}
+
+main#extra > li {
+    background-color: #9FF5BC;
+    margin-right: 1.5rem;
+    text-indent: 2rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 0px;
+    margin-bottom: 0.5em;
+}
+
+ul::before {
+    content: "🔗 ";
+}
+
+ul > a {
+    text-decoration: none;
+    color: #0E5629;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #0E5629;
+    color: white;
+    text-align: center;
+    padding: 0.3%;
+    margin-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    color: #5ADB8A;
+    transition: all 0.3s;
+}
+
+p > a {
+    text-decoration: none;
+    color: #0E5629;
+    font-weight: bold;
+}
+
+span {
+    color: #5ADB8A;
+}
+
+p > a::after {
+    content: " 🔗";
+}
+
+a#github {
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+a#github:hover {
+    color: #5ADB8A;
+    transition: all 0.3s;
+}
+
+a#github::before {
+    content: " 🔗 ";
+}
+abbr > a {
+    text-decoration: none;
+    color: #0E5629;
+    font-weight: bold;
+}
+div#video {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #0E5629;
+    padding: 2em 2rem;
+    margin: 1rem ;
+}
